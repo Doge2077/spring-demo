@@ -1,17 +1,17 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&charterEncoding=utf-8
-    username: root
-    password: 023017lys
-  mail:
-    host: smtp.163.com
-    username: chalys2021@163.com
-    password: QLWTZHQLHAGBQQZL
+    url: jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&charterEncoding=utf-8  # 数据库连接地址，数据库名称默认 demo
+    username: xxx             # 数据库连接用户名
+    password: xxxxxx          # 密码
+  mail:                       # 配置 smtp 邮件代发
+    host: smtp.163.com        # 邮件代理主机地址
+    username: xxx@xxx.com     # 代理用户名
+    password: xxxxxx          # 密码
     protocol: smtps
     port: 465
     properties:
-      from: chalys2021@163.com
+      from: xxx@xxx.com       # 代理用户名
       mail:
         smtp:
           auth: true

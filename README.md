@@ -65,7 +65,7 @@
 ****
 
 * 首先 `Star` 并且 `Fork` 本项目到你的 `repo` （bushi）
-* 环境依赖：`jdk17`、`node.js14`、`SpringBoot3`、`Vue3`、`redis5.0.14.1`
+* 环境依赖：`jdk17`、`node.js16+`、`SpringBoot3`、`Vue3`、`redis5.0.14.1`
 * 推荐使用 `idea` 进行构建：
   * 将 `demo-beckend` 模块导入，并执行 `Maven` 构建。
   * 将 `demo-frontend` 模块导入，并执行 `npm` 构建。

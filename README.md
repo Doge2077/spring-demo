@@ -70,7 +70,7 @@
   * 将 `demo-beckend` 模块导入，并执行 `Maven` 构建。
   * 将 `demo-frontend` 模块导入，并执行 `npm` 构建。
 * 安装 `redis`，`windows` [下载地址](https://github.com/tporadowski/redis/releases)；
-* 安装 `mysql`，运行 `demo.sql` 文件，注意字符集为 `utf8mb4`，排序规则为 `utf8mb4_0900_ai_ci`。
+* 安装 `mysql`，运行 `demo.sql` 文件，注意字符集为 `utf8mb4`，排序规则为 `utf8mb4_unicode_ci`。
 
 ****
 

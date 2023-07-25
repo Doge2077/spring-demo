@@ -103,7 +103,7 @@ spring:
           socketFactory:
             class: javax.net.ssl.SSLSocketFactory
   data:
-    redis:
+    redis:                    # redis 配置
       database: 0
       host: 127.0.0.1
       port: 6379
